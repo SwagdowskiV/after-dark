@@ -2,6 +2,11 @@
 
 Multiplayer survival horror in the browser, for 1–6 players. Survivors team up to collect every coin in a dark mansion, a creepy circus or a darker forest, which unlocks the exit, and then try to escape. Up to three monsters (a clown, a witch and a ghost, played by people or the AI) hunt them down. Caught survivors are trapped until a friend frees them.
 
+## Play right now!
+
+After Dark is currently up using render, you can access it and play right now using this link!
+https://after-dark-ghy9.onrender.com/ 
+
 ## Run it in VS Code
 
 1. Install **Node.js 20 or newer** from https://nodejs.org (check with `node -v`).
