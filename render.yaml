@@ -1,0 +1,13 @@
+# One-click deploy on Render (https://render.com): New → Blueprint → pick this repo.
+# A single Node web service builds the page and then serves it together with the game server.
+services:
+  - type: web
+    name: after-dark
+    runtime: node
+    plan: free # sleeps after 15 min with no visitors; "starter" stays on full time
+    buildCommand: npm ci --include=dev && npm run build
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
